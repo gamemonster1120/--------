@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  color: #273444;
+  background-color: rgb(226, 226, 226);
+  display: flexbox;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3333333333;
+}
+
+.profile-location {
+  font-size: 14px;
+  line-height: 1.4285714286;
+  color: #8492a6;
+}
+
+.profile-detail dt {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #8492a6;
+}
+
+.profile-detail dd {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #0066ff;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px 80px 80px 80px;
+}
+
+.profile {
+  
+  text-align: center;
+  height: 300px;
+  width: 400px;
+  border-radius: 80px 80px 80px 80px;
+  background-color: white;
+  padding-top: 40px;
+  
+  
+}
+
+.profile-detail {
+  float: left;
+  width: 400px;
+  margin-top: 20px;
+  
+  text-align: center;
+  display: flex;
+  justify-content:left;
+}
+.profile-detail div {
+  float: left;
+  margin-left: 64px;
+  text-align: center;
+  
+  
+}
